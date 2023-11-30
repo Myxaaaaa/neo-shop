@@ -194,25 +194,25 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  gap: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
 .tovar {
-  background: rgba(208, 202, 202, 0.35);
+  background: rgba(208, 202, 202, 0.79);
   width: 300px;
-  height: 550px;
+  height: 500px;
   border-radius: 12px;
 }
 .tovar img {
-  width: 250px;
+  width: 280px;
   height: 250px;
   border-radius: 10px;
-  margin: 0 23px;
+  margin: 0 10px;
   -webkit-transition: 0.8s;
   transition: 0.8s;
 }
@@ -230,7 +230,7 @@ a {
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
-  padding: 10px 50px;
+  padding: 10px 25px;
 }
 
 .button {
