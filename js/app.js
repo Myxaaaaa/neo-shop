@@ -1,1 +1,1 @@
-const button = document.getElementById('.')
+const button = document.querySelector('.signUP')

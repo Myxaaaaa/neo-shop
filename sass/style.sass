@@ -119,10 +119,15 @@
   justify-content: center
   gap: 50px
   flex-wrap: wrap
-
+  @media(max-width: 1370px)
+    gap: 30px
+    @media(max-width: 1365px)
+      gap: 10px
+      @media(max-width: 1340px)
+        display: flex
 
 .tovar
-  background: rgba(208, 202, 202, 0.79)
+  background: rgba(0, 0, 0, 0.56)
   width: 300px
   height: 500px
   border-radius: 12px
